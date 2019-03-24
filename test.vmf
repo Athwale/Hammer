@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "780"
+	"mapversion" "798"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "780"
+	"mapversion" "798"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3260,6 +3260,7 @@ entity
 	"LeadTarget" "No"
 	"maxRange" "0"
 	"minRange" "0"
+	"npc_man_point" "turret_tank_man_target"
 	"origin" "-390 -160 40"
 	"persistence" "1"
 	"persistence2" "0"
@@ -3272,7 +3273,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "33"
+	"spawnflags" "1057"
 	"spritescale" "1"
 	"targetname" "turret_tank"
 	"yawrange" "180"
@@ -3463,10 +3464,11 @@ entity
 	connections
 	{
 		"OnIn" "turret_tank,Activate,,0,-1"
-		"OnIn" "turret_tank,SetTargetEntityName,player,0,-1"
 		"OnOut" "turret_tank,Deactivate,,0,-1"
 		"OnIn" "steamer,TurnOn,,0,-1"
 		"OnOut" "steamer,TurnOff,,0,-1"
+		"OnIn" "enemy_finder,SetRelationship,player d_ht 99,0,-1"
+		"OnIn" "turret_tank,StartFindingNPCs,,0,-1"
 	}
 	solid
 	{
@@ -12876,7 +12878,7 @@ entity
 	"rendercolor" "255 255 255"
 	"spawnflags" "516"
 	"startburrowed" "No"
-	"targetname" "noc_headcrab"
+	"targetname" "npc_headcrab"
 	"origin" "0 -320 1.49204"
 	editor
 	{
@@ -13107,6 +13109,8 @@ entity
 		"OnPhysGunPickup" "heavy_weapon_1_player_turret,SetTargetEntityName,player,0,-1"
 		"OnPhysGunPickup" "heavy_weapon_1_player_turret,Activate,,0,-1"
 		"OnPhysGunDrop" "heavy_weapon_1_player_turret,Deactivate,,0,-1"
+		"OnPhysGunPickup" "heavy_weapon_1_repeater,Enable,,0,-1"
+		"OnPhysGunDrop" "heavy_weapon_1_repeater,Disable,,0,-1"
 	}
 	solid
 	{
@@ -13771,35 +13775,10 @@ entity
 }
 entity
 {
-	"id" "28389"
-	"classname" "env_gunfire"
-	"bias" "1"
-	"maxburstdelay" "0"
-	"maxburstsize" "3"
-	"minburstdelay" "0"
-	"minburstsize" "2"
-	"parentname" "heavy_weapon_physbox"
-	"rateoffire" "10"
-	"shootsound" "Weapon_AR2.NPC_Single"
-	"spread" "1"
-	"StartDisabled" "1"
-	"target" "heavy_weapon_gunfire_target"
-	"targetname" "heavy_weapon_gunfire"
-	"tracertype" "AR2TRACER"
-	"origin" "-171 112 9"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
 	"id" "28437"
 	"classname" "env_gunfire"
 	"bias" "1"
+	"collisions" "1"
 	"maxburstdelay" "0"
 	"maxburstsize" "3"
 	"minburstdelay" "0"
@@ -13811,7 +13790,7 @@ entity
 	"StartDisabled" "1"
 	"target" "heavy_weapon_1_target"
 	"targetname" "heavy_weapon_1_gunfire"
-	"tracertype" "Tracer"
+	"tracertype" "AR2TRACER"
 	"origin" "-73 54 9"
 	editor
 	{
@@ -13844,8 +13823,9 @@ entity
 	"classname" "info_target"
 	"angles" "0 0 0"
 	"parentname" "heavy_weapon_physbox"
+	"spawnflags" "0"
 	"targetname" "heavy_weapon_gunfire_target"
-	"origin" "-187 112 9"
+	"origin" "-208 112 9"
 	editor
 	{
 		"color" "220 30 220"
@@ -13990,7 +13970,9 @@ entity
 	"id" "28941"
 	"classname" "logic_timer"
 	"RefireTime" "1"
-	"StartDisabled" "0"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "heavy_weapon_1_repeater"
 	connections
 	{
 		"OnTimer" "heavy_weapon_1_player_turret,SetTargetEntityName,player,0,-1"
@@ -14005,6 +13987,49 @@ entity
 		"logicalpos" "[0 3000]"
 	}
 }
+entity
+{
+	"id" "29194"
+	"classname" "env_gunfire"
+	"bias" "1"
+	"collisions" "1"
+	"maxburstdelay" "5"
+	"maxburstsize" "7"
+	"minburstdelay" "2"
+	"minburstsize" "2"
+	"parentname" "heavy_weapon_physbox"
+	"rateoffire" "10"
+	"shootsound" "Weapon_AR2.NPC_Single"
+	"spread" "1"
+	"StartDisabled" "1"
+	"target" "heavy_weapon_gunfire_target"
+	"targetname" "heavy_weapon_gunfire"
+	"tracertype" "AR2TRACER"
+	"origin" "-171 112 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "29333"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "turret_tank_man_target"
+	"origin" "-376 -192 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
 cameras
 {
 	"activecamera" "-1"
@@ -14014,8 +14039,4 @@ cordon
 	"mins" "(-1024 -1024 -1024)"
 	"maxs" "(1024 1024 1024)"
 	"active" "0"
-}
-quickhide
-{
-	"count" "2"
 }
