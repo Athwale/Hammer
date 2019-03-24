@@ -1,0 +1,16 @@
+
+
+
+materialPath: Z:\home\other\SteamLibrary\steamapps\common\half-life 2 deathmatch\hl2mp\materials
+Loading Z:\home\other\SteamLibrary\steamapps\common\sourcesdk_content\hl2mp\mapsrc\pokus.vmf
+fixing up env_cubemap materials on brush sides...
+material "skybox/sky_day01_01rt" not found
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+No such variable "$hdrbasetexture" for material "___error"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
