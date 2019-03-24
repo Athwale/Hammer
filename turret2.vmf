@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "42"
+	"mapversion" "59"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "42"
+	"mapversion" "59"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1659,7 +1659,7 @@ entity
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"spawnflags" "0"
-	"origin" "0 0 256"
+	"origin" "0 -64 256"
 	editor
 	{
 		"color" "220 30 220"
@@ -2900,7 +2900,7 @@ entity
 	{
 		"OnTimer" "turret_pulselaser,SetTargetEntityName,player,0,-1"
 	}
-	"origin" "0 0 105"
+	"origin" "0 32 76"
 	editor
 	{
 		"color" "220 30 220"
@@ -3227,8 +3227,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[111.823 0.760403 71.1267]"
-		"look" "[110.866 0.471638 71.1472]"
+		"position" "[72.9223 13.7427 175.386]"
+		"look" "[72.3182 13.7596 174.589]"
 	}
 }
 cordon
