@@ -1,0 +1,2625 @@
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4492 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              60/65536         480/524288   ( 0.1%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        7896/393216   ( 2.0%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4492/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        7890/393216   ( 2.0%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8158/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8157/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8155/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8155/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8157/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8155/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8159/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8157/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8153/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8159/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8167/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8158/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8163/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8091/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8085/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8085/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8093/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8089/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading z:\home\other\editormaps\mounted_gun_1.vmf
+Could not locate 'GameData' key in z:\home\omejzlik\.local\share\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\home\other\editormaps\mounted_gun_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 5 texdatas to 5 (109 bytes to 109)
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+Wrote ZIP buffer, estimated size 105897, actual size 105683
+0 seconds elapsed
+
+
+
+4 threads
+reading z:\home\other\editormaps\mounted_gun_1.bsp
+reading z:\home\other\editormaps\mounted_gun_1.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file Z:\home\omejzlik\.local\share\Steam\steamapps\common\Half-Life 2 Deathmatch\bin\lights.rad.
+Loading z:\home\other\editormaps\mounted_gun_1.bsp
+28 faces
+9600 square feet [1382480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+1276 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 116559, max 206
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              64/65536         512/524288   ( 0.1%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes                67/65536         804/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                  105/256000        420/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       23872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8092/393216   ( 2.1%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient        30/65536         840/1835008  ( 0.0%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing z:\home\other\editormaps\mounted_gun_1.bsp
+0 seconds elapsed
