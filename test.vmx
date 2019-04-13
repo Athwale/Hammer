@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "833"
+	"mapversion" "922"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "833"
+	"mapversion" "922"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -43,7 +43,7 @@ world
 		side
 		{
 			"id" "2"
-			"plane" "(-1152 512 -16) (-1152 -384 -16) (256 -384 -16)"
+			"plane" "(-1152 512 -240) (-1152 -384 -240) (256 -384 -240)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -54,7 +54,7 @@ world
 		side
 		{
 			"id" "3"
-			"plane" "(-1152 -384 -16) (-1152 512 -16) (-1152 512 0)"
+			"plane" "(-1152 -384 -240) (-1152 512 -240) (-1152 512 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -65,7 +65,7 @@ world
 		side
 		{
 			"id" "4"
-			"plane" "(256 512 -16) (256 -384 -16) (256 -384 0)"
+			"plane" "(256 512 -240) (256 -384 -240) (256 -384 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -76,7 +76,7 @@ world
 		side
 		{
 			"id" "5"
-			"plane" "(-1152 512 -16) (256 512 -16) (256 512 0)"
+			"plane" "(-1152 512 -240) (256 512 -240) (256 512 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -87,7 +87,7 @@ world
 		side
 		{
 			"id" "6"
-			"plane" "(256 -384 -16) (-1152 -384 -16) (-1152 -384 0)"
+			"plane" "(256 -384 -240) (-1152 -384 -240) (-1152 -384 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -184,7 +184,7 @@ world
 		side
 		{
 			"id" "13"
-			"plane" "(240 -384 2005) (240 512 2005) (256 512 2005)"
+			"plane" "(240 -384 2005) (240 2576 2005) (256 2576 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -195,7 +195,7 @@ world
 		side
 		{
 			"id" "14"
-			"plane" "(240 512 0) (240 -384 0) (256 -384 0)"
+			"plane" "(240 2576 -240) (240 -384 -240) (256 -384 -240)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -206,7 +206,7 @@ world
 		side
 		{
 			"id" "15"
-			"plane" "(240 -384 0) (240 512 0) (240 512 2005)"
+			"plane" "(240 -384 -240) (240 2576 -240) (240 2576 2005)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -217,7 +217,7 @@ world
 		side
 		{
 			"id" "16"
-			"plane" "(256 512 0) (256 -384 0) (256 -384 2005)"
+			"plane" "(256 2576 -240) (256 -384 -240) (256 -384 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -228,7 +228,7 @@ world
 		side
 		{
 			"id" "17"
-			"plane" "(240 512 0) (256 512 0) (256 512 2005)"
+			"plane" "(240 2576 -240) (256 2576 -240) (256 2576 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -239,7 +239,7 @@ world
 		side
 		{
 			"id" "18"
-			"plane" "(256 -384 0) (240 -384 0) (240 -384 2005)"
+			"plane" "(256 -384 -240) (240 -384 -240) (240 -384 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -260,7 +260,7 @@ world
 		side
 		{
 			"id" "19"
-			"plane" "(-1152 496 2005) (-1152 512 2005) (240 512 2005)"
+			"plane" "(-1152 2560 2005) (-1152 2576 2005) (240 2576 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -271,7 +271,7 @@ world
 		side
 		{
 			"id" "20"
-			"plane" "(-1152 512 0) (-1152 496 0) (240 496 0)"
+			"plane" "(-1152 2576 -240) (-1152 2560 -240) (240 2560 -240)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -282,7 +282,7 @@ world
 		side
 		{
 			"id" "21"
-			"plane" "(-1152 496 0) (-1152 512 0) (-1152 512 2005)"
+			"plane" "(-1152 2560 -240) (-1152 2576 -240) (-1152 2576 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -293,7 +293,7 @@ world
 		side
 		{
 			"id" "22"
-			"plane" "(240 512 0) (240 496 0) (240 496 2005)"
+			"plane" "(240 2576 -240) (240 2560 -240) (240 2560 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -304,7 +304,7 @@ world
 		side
 		{
 			"id" "23"
-			"plane" "(-1152 512 0) (240 512 0) (240 512 2005)"
+			"plane" "(-1152 2576 -240) (240 2576 -240) (240 2576 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -315,7 +315,7 @@ world
 		side
 		{
 			"id" "24"
-			"plane" "(240 496 0) (-1152 496 0) (-1152 496 2005)"
+			"plane" "(240 2560 -240) (-1152 2560 -240) (-1152 2560 2005)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -347,7 +347,7 @@ world
 		side
 		{
 			"id" "26"
-			"plane" "(-1152 -368 0) (-1152 -384 0) (240 -384 0)"
+			"plane" "(-1152 -368 -240) (-1152 -384 -240) (240 -384 -240)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -358,7 +358,7 @@ world
 		side
 		{
 			"id" "27"
-			"plane" "(-1152 -384 0) (-1152 -368 0) (-1152 -368 2005)"
+			"plane" "(-1152 -384 -240) (-1152 -368 -240) (-1152 -368 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -369,7 +369,7 @@ world
 		side
 		{
 			"id" "28"
-			"plane" "(240 -368 0) (240 -384 0) (240 -384 2005)"
+			"plane" "(240 -368 -240) (240 -384 -240) (240 -384 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -380,7 +380,7 @@ world
 		side
 		{
 			"id" "29"
-			"plane" "(-1152 -368 0) (240 -368 0) (240 -368 2005)"
+			"plane" "(-1152 -368 -240) (240 -368 -240) (240 -368 2005)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -391,7 +391,7 @@ world
 		side
 		{
 			"id" "30"
-			"plane" "(240 -384 0) (-1152 -384 0) (-1152 -384 2005)"
+			"plane" "(240 -384 -240) (-1152 -384 -240) (-1152 -384 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -412,7 +412,7 @@ world
 		side
 		{
 			"id" "31"
-			"plane" "(-1152 -384 2005) (-1152 512 2005) (256 512 2005)"
+			"plane" "(-1152 -384 2005) (-1152 2560 2005) (256 2560 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -423,7 +423,7 @@ world
 		side
 		{
 			"id" "32"
-			"plane" "(-1152 512 1989) (-1152 -384 1989) (256 -384 1989)"
+			"plane" "(-1152 2560 1989) (-1152 -384 1989) (256 -384 1989)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -434,7 +434,7 @@ world
 		side
 		{
 			"id" "33"
-			"plane" "(-1152 -384 1989) (-1152 512 1989) (-1152 512 2005)"
+			"plane" "(-1152 -384 1989) (-1152 2560 1989) (-1152 2560 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
@@ -445,7 +445,7 @@ world
 		side
 		{
 			"id" "34"
-			"plane" "(256 512 1989) (256 -384 1989) (256 -384 2005)"
+			"plane" "(256 2560 1989) (256 -384 1989) (256 -384 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
@@ -456,7 +456,7 @@ world
 		side
 		{
 			"id" "35"
-			"plane" "(-1152 512 1989) (256 512 1989) (256 512 2005)"
+			"plane" "(-1152 2560 1989) (256 2560 1989) (256 2560 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
@@ -944,7 +944,7 @@ world
 		side
 		{
 			"id" "2084"
-			"plane" "(-1168 -384 2005) (-1168 512 2005) (-1152 512 2005)"
+			"plane" "(-1168 -384 2005) (-1168 2576 2005) (-1152 2576 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -955,7 +955,7 @@ world
 		side
 		{
 			"id" "2083"
-			"plane" "(-1168 512 0) (-1168 -384 0) (-1152 -384 0)"
+			"plane" "(-1168 2576 -240) (-1168 -384 -240) (-1152 -384 -240)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -966,7 +966,7 @@ world
 		side
 		{
 			"id" "2082"
-			"plane" "(-1152 512 0) (-1152 -384 0) (-1152 -384 2005)"
+			"plane" "(-1152 2576 -240) (-1152 -384 -240) (-1152 -384 2005)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -977,7 +977,7 @@ world
 		side
 		{
 			"id" "2081"
-			"plane" "(-1168 -384 0) (-1168 512 0) (-1168 512 2005)"
+			"plane" "(-1168 -384 -240) (-1168 2576 -240) (-1168 2576 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -988,7 +988,7 @@ world
 		side
 		{
 			"id" "2080"
-			"plane" "(-1152 -384 0) (-1168 -384 0) (-1168 -384 2005)"
+			"plane" "(-1152 -384 -240) (-1168 -384 -240) (-1168 -384 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -999,7 +999,7 @@ world
 		side
 		{
 			"id" "2079"
-			"plane" "(-1168 512 0) (-1152 512 0) (-1152 512 2005)"
+			"plane" "(-1168 2576 -240) (-1152 2576 -240) (-1152 2576 2005)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1928,6 +1928,158 @@ world
 	}
 	solid
 	{
+		"id" "30794"
+		side
+		{
+			"id" "4037"
+			"plane" "(-1152 512 0) (-1152 2560 0) (240 2560 0)"
+			"material" "DEV/DEV_WATER2"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4038"
+			"plane" "(-1152 2560 -240) (-1152 512 -240) (240 512 -240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4039"
+			"plane" "(-1152 512 -240) (-1152 2560 -240) (-1152 2560 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4040"
+			"plane" "(240 2560 -240) (240 512 -240) (240 512 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4041"
+			"plane" "(-1152 2560 -240) (240 2560 -240) (240 2560 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4042"
+			"plane" "(240 512 -240) (-1152 512 -240) (-1152 512 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 199 168"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "30797"
+		side
+		{
+			"id" "4043"
+			"plane" "(-1168 -384 -240) (-1168 2576 -240) (256 2576 -240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4044"
+			"plane" "(-1168 2576 -256) (-1168 -384 -256) (256 -384 -256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4045"
+			"plane" "(-1168 -384 -256) (-1168 2576 -256) (-1168 2576 -240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4046"
+			"plane" "(256 2576 -256) (256 -384 -256) (256 -384 -240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4047"
+			"plane" "(-1168 2576 -256) (256 2576 -256) (256 2576 -240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4048"
+			"plane" "(256 -384 -256) (-1168 -384 -256) (-1168 -384 -240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 165 182"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "25233"
 		side
 		{
@@ -2003,6 +2155,82 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "31594"
+		side
+		{
+			"id" "4049"
+			"plane" "(-512 2054 1) (-416 2054 1) (-416 512 1)"
+			"material" "CONCRETE/CONCRETEFLOOR028A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4050"
+			"plane" "(-512 512 -16) (-416 512 -16) (-416 2054 -16)"
+			"material" "CONCRETE/CONCRETEFLOOR028A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4051"
+			"plane" "(-512 2054 1) (-512 512 1) (-512 512 -16)"
+			"material" "CONCRETE/CONCRETEFLOOR028A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4052"
+			"plane" "(-416 2054 -16) (-416 512 -16) (-416 512 1)"
+			"material" "CONCRETE/CONCRETEFLOOR028A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4053"
+			"plane" "(-416 2054 1) (-512 2054 1) (-512 2054 -16)"
+			"material" "CONCRETE/CONCRETEFLOOR028A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4054"
+			"plane" "(-416 512 -16) (-512 512 -16) (-512 512 1)"
+			"material" "CONCRETE/CONCRETEFLOOR028A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 105 254"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "25223"
@@ -2030,6 +2258,16 @@ world
 		editor
 		{
 			"color" "0 213 234"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "31814"
+		editor
+		{
+			"color" "169 194 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2608,7 +2846,7 @@ entity
 	"rendermode" "0"
 	"spawnflags" "32"
 	"spawnpos" "0"
-	"speed" "100"
+	"speed" "200"
 	"targetname" "wall"
 	"unlocked_sentence" "0"
 	"wait" "4"
@@ -2795,7 +3033,7 @@ entity
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"targetname" "light"
-	"origin" "-177 384 104"
+	"origin" "-456 792 104"
 	editor
 	{
 		"color" "220 30 220"
@@ -8756,7 +8994,7 @@ entity
 	"shadowcastdist" "0"
 	"skin" "0"
 	"spawnflags" "264"
-	"origin" "-111 359 22"
+	"origin" "-841 -198 22"
 	editor
 	{
 		"color" "220 30 220"
@@ -8776,7 +9014,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/interior_fence002c.mdl"
 	"solid" "6"
-	"origin" "-247 361 23"
+	"origin" "-977 -196 23"
 	editor
 	{
 		"color" "255 255 0"
@@ -12750,7 +12988,7 @@ entity
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"spawnflags" "0"
-	"origin" "-122 -122 97"
+	"origin" "-122 -120 96"
 	editor
 	{
 		"color" "220 30 220"
@@ -14056,32 +14294,6 @@ entity
 }
 entity
 {
-	"id" "29752"
-	"classname" "prop_physics_respawnable"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"inertiaScale" "1.0"
-	"model" "models/props_c17/oildrum001_explosive.mdl"
-	"modelscale" "1.0"
-	"physdamagescale" "0.1"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"RespawnTime" "60"
-	"skin" "0"
-	"spawnflags" "256"
-	"targetname" "barrel"
-	"origin" "64 53 9"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "29966"
 	"classname" "env_fire"
 	"damagescale" "1.0"
@@ -14219,6 +14431,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"inertiaScale" "1.0"
+	"minhealthdmg" "1000"
 	"model" "models/props_c17/oildrum001_explosive.mdl"
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
@@ -14227,7 +14440,7 @@ entity
 	"skin" "0"
 	"spawnflags" "256"
 	"targetname" "barrel"
-	"origin" "49 82 9"
+	"origin" "192 -62 9"
 	editor
 	{
 		"color" "220 30 220"
@@ -14244,6 +14457,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"inertiaScale" "1.0"
+	"minhealthdmg" "1000"
 	"model" "models/props_c17/oildrum001_explosive.mdl"
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
@@ -14253,7 +14467,7 @@ entity
 	"skin" "0"
 	"spawnflags" "256"
 	"targetname" "barrel"
-	"origin" "35 53 9"
+	"origin" "192 -32 9"
 	editor
 	{
 		"color" "220 30 220"
@@ -14271,9 +14485,9 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"health" "100"
+	"health" "10000"
 	"inertiaScale" "0.01"
-	"minhealthdmg" "0"
+	"minhealthdmg" "1000"
 	"model" "models/props_c17/oildrum001_explosive.mdl"
 	"modelscale" "1.0"
 	"physdamagescale" "0"
@@ -14284,10 +14498,885 @@ entity
 	{
 		"OnPhysGunPickup" "nonexplosive_barrel,DisableDamageForces,,0,-1"
 	}
-	"origin" "-51 120.319 9"
+	"origin" "192 -92 9"
 	editor
 	{
 		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "30844"
+	"classname" "light"
+	"_light" "255 255 255 600"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"targetname" "light"
+	"origin" "-358 -120 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "31412"
+	"classname" "point_template"
+	"spawnflags" "3"
+	"targetname" "cannister_template_2"
+	"Template01" "cannister_2"
+	connections
+	{
+		"OnEntitySpawned" "cannister_timer_2,Disable,,0,-1"
+	}
+	"origin" "80 504 60.5531"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "31414"
+	"classname" "physics_cannister"
+	"angles" "0 0 0"
+	"expdamage" "200.0"
+	"expradius" "2297"
+	"fuel" "12.0"
+	"gassound" "ambient/objects/cannister_loop.wav"
+	"health" "100"
+	"model" "models/props_c17/canister02a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"spawnflags" "2"
+	"targetname" "cannister_2"
+	"thrust" "4000"
+	connections
+	{
+		"OnActivate" "cannister_2,Explode,,12,-1"
+		"OnUser1" "cannister_timer_2,Disable,,0,-1"
+		"OnUser1" "test_sound,PlaySound,,0,-1"
+	}
+	"origin" "80 504 30.5531"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "31417"
+	"classname" "logic_timer"
+	"RefireTime" "5"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "cannister_timer_2"
+	connections
+	{
+		"OnTimer" "cannister_template_2,ForceSpawn,,0,-1"
+	}
+	"origin" "80 504 30.5531"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31419"
+	"classname" "logic_timer"
+	"RefireTime" "60"
+	"spawnflags" "0"
+	"targetname" "cannister_poller_2"
+	connections
+	{
+		"OnTimer" "cannister_2,FireUser1,,1,-1"
+		"OnTimer" "cannister_timer_2,Enable,,0,-1"
+		"OnTimer" "cannister_timer_2,ResetTimer,,0,-1"
+	}
+	"origin" "80 504 14.5531"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31602"
+	"classname" "light"
+	"_light" "255 255 255 600"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"targetname" "light"
+	"origin" "-1112 2512 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "31607"
+	"classname" "light"
+	"_light" "255 255 255 600"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"targetname" "light"
+	"origin" "192 2512 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "31667"
+	"classname" "light"
+	"_light" "255 255 255 4000"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"spawnflags" "0"
+	"targetname" "light"
+	"origin" "-472 1776 1232"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "31097"
+	"classname" "point_template"
+	"spawnflags" "3"
+	"targetname" "cannister_template_1"
+	"Template01" "cannister_1"
+	"Template02" "cannister_sensor_1"
+	"Template03" "cannister_comparator_1"
+	connections
+	{
+		"OnEntitySpawned" "cannister_timer_1,Disable,,0,-1"
+	}
+	"origin" "-221 472 60"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "31099"
+	"classname" "prop_physics_multiplayer"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_c17/oildrum001_explosive.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"physicsmode" "0"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawnflags" "256"
+	"targetname" "cannister_1"
+	connections
+	{
+		"OnUser1" "cannister_timer_1,Disable,,0,-1"
+		"OnBreak" "cannister_sensor_1,Kill,,0,-1"
+		"OnBreak" "cannister_comparator_1,Kill,,0,-1"
+		"OnBreak" "cannister_gib_1,Ignite,,0,-1"
+	}
+	"origin" "-221 472 1"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "31102"
+	"classname" "logic_timer"
+	"RefireTime" "2"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "cannister_timer_1"
+	connections
+	{
+		"OnTimer" "cannister_template_1,ForceSpawn,,0,-1"
+	}
+	"origin" "-221 472 92"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31104"
+	"classname" "logic_timer"
+	"RefireTime" "3"
+	"spawnflags" "0"
+	"targetname" "cannister_poller_1"
+	connections
+	{
+		"OnTimer" "cannister_1,FireUser1,,1,-1"
+		"OnTimer" "cannister_timer_1,Enable,,0,-1"
+		"OnTimer" "cannister_timer_1,ResetTimer,,0,-1"
+	}
+	"origin" "-221 472 76"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31157"
+	"classname" "point_velocitysensor"
+	"axis" "-221 472 164"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-221 472 156"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31214"
+	"classname" "logic_compare"
+	"CompareValue" "1200"
+	"InitialValue" "1"
+	"targetname" "cannister_comparator_1"
+	connections
+	{
+		"OnGreaterThan" "cannister_1,IgniteLifetime,2000,0,-1"
+	}
+	"origin" "-205 472 92"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "31565"
+	"classname" "point_velocitysensor"
+	"axis" "-221 472 100"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-221 472 108"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31571"
+	"classname" "point_velocitysensor"
+	"axis" "-221 448 120"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-221 456 124"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31576"
+	"classname" "point_velocitysensor"
+	"axis" "-197 472 120"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-205 472 124"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31580"
+	"classname" "point_velocitysensor"
+	"axis" "-221 496 120"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-221 488 124"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31584"
+	"classname" "point_velocitysensor"
+	"axis" "-245 472 120"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-237 472 124"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31644"
+	"classname" "point_velocitysensor"
+	"axis" "-221 448 144"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-221 456 140"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31647"
+	"classname" "point_velocitysensor"
+	"axis" "-221 496 144"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-221 488 140"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31650"
+	"classname" "point_velocitysensor"
+	"axis" "-245 472 144"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-237 472 140"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31653"
+	"classname" "point_velocitysensor"
+	"axis" "-197 472 144"
+	"enabled" "1"
+	"target" "cannister_1"
+	"targetname" "cannister_sensor_1"
+	connections
+	{
+		"Velocity" "cannister_comparator_1,SetValueCompare,,0,-1"
+	}
+	"origin" "-205 472 140"
+	editor
+	{
+		"color" "169 194 0"
+		"groupid" "31814"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31859"
+	"classname" "point_template"
+	"spawnflags" "3"
+	"targetname" "cannister_template_3"
+	"Template01" "cannister_3"
+	"Template02" "cannister_sensor_2"
+	"Template03" "cannister_comparator_2"
+	connections
+	{
+		"OnEntitySpawned" "cannister_timer_3,Disable,,0,-1"
+	}
+	"origin" "-144 472 60"
+	editor
+	{
+		"color" "0 211 160"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "31861"
+	"classname" "prop_physics_multiplayer"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_c17/oildrum001_explosive.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"physicsmode" "0"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawnflags" "256"
+	"targetname" "cannister_3"
+	connections
+	{
+		"OnUser1" "cannister_timer_3,Disable,,0,-1"
+		"OnBreak" "cannister_sensor_2,Kill,,0,-1"
+		"OnBreak" "cannister_comparator_2,Kill,,0,-1"
+		"OnBreak" "cannister_gib_1,Ignite,,0,-1"
+	}
+	"origin" "-144 472 1"
+	editor
+	{
+		"color" "0 225 186"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "31865"
+	"classname" "logic_timer"
+	"RefireTime" "2"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "cannister_timer_3"
+	connections
+	{
+		"OnTimer" "cannister_template_3,ForceSpawn,,0,-1"
+	}
+	"origin" "-144 472 92"
+	editor
+	{
+		"color" "0 239 132"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31867"
+	"classname" "logic_timer"
+	"RefireTime" "3"
+	"spawnflags" "0"
+	"targetname" "cannister_poller_3"
+	connections
+	{
+		"OnTimer" "cannister_3,FireUser1,,1,-1"
+		"OnTimer" "cannister_timer_3,Enable,,0,-1"
+		"OnTimer" "cannister_timer_3,ResetTimer,,0,-1"
+	}
+	"origin" "-144 472 76"
+	editor
+	{
+		"color" "0 121 122"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31869"
+	"classname" "point_velocitysensor"
+	"axis" "-144 472 164"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-144 472 156"
+	editor
+	{
+		"color" "0 179 252"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31872"
+	"classname" "logic_compare"
+	"CompareValue" "1200"
+	"InitialValue" "1"
+	"targetname" "cannister_comparator_2"
+	connections
+	{
+		"OnGreaterThan" "cannister_3,IgniteLifetime,2000,0,-1"
+	}
+	"origin" "-128 472 92"
+	editor
+	{
+		"color" "0 189 218"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "31874"
+	"classname" "point_velocitysensor"
+	"axis" "-144 472 100"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-144 472 108"
+	editor
+	{
+		"color" "0 131 120"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31877"
+	"classname" "point_velocitysensor"
+	"axis" "-144 448 120"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-144 456 124"
+	editor
+	{
+		"color" "0 125 162"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31880"
+	"classname" "point_velocitysensor"
+	"axis" "-120 472 120"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-128 472 124"
+	editor
+	{
+		"color" "0 183 236"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31883"
+	"classname" "point_velocitysensor"
+	"axis" "-144 496 120"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-144 488 124"
+	editor
+	{
+		"color" "0 121 206"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31886"
+	"classname" "point_velocitysensor"
+	"axis" "-168 472 120"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-160 472 124"
+	editor
+	{
+		"color" "0 239 224"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31889"
+	"classname" "point_velocitysensor"
+	"axis" "-144 448 144"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-144 456 140"
+	editor
+	{
+		"color" "0 197 150"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31892"
+	"classname" "point_velocitysensor"
+	"axis" "-144 496 144"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-144 488 140"
+	editor
+	{
+		"color" "0 235 132"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31895"
+	"classname" "point_velocitysensor"
+	"axis" "-168 472 144"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-160 472 140"
+	editor
+	{
+		"color" "0 113 174"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "31898"
+	"classname" "point_velocitysensor"
+	"axis" "-120 472 144"
+	"enabled" "1"
+	"target" "cannister_3"
+	"targetname" "cannister_sensor_2"
+	connections
+	{
+		"Velocity" "cannister_comparator_2,SetValueCompare,,0,-1"
+	}
+	"origin" "-128 472 140"
+	editor
+	{
+		"color" "0 191 180"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
