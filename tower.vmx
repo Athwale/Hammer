@@ -1,0 +1,3547 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7538"
+	"mapversion" "61"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "61"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "615"
+		side
+		{
+			"id" "1"
+			"plane" "(-448 -448 -224) (448 -448 -224) (448 -448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-448 448 -272) (448 448 -272) (448 448 -224)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-448 -448 -224) (-448 -448 -272) (-448 448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 0 1 96] 0.25"
+			"vaxis" "[0 1 0 96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(448 448 -224) (448 448 -272) (448 -448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 0 1 96] 0.25"
+			"vaxis" "[0 1 0 96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(448 -448 -224) (-448 -448 -224) (-448 448 -224)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(448 448 -272) (-448 448 -272) (-448 -448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 240 185"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "616"
+		side
+		{
+			"id" "7"
+			"plane" "(-448 -448 496) (448 -448 496) (448 -448 448)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-448 448 448) (448 448 448) (448 448 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-448 -448 496) (-448 -448 448) (-448 448 448)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 0 1 -96] 0.25"
+			"vaxis" "[0 1 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(448 448 496) (448 448 448) (448 -448 448)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 0 1 -96] 0.25"
+			"vaxis" "[0 1 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(448 -448 496) (-448 -448 496) (-448 448 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(448 448 448) (-448 448 448) (-448 -448 448)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 227 204"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "617"
+		side
+		{
+			"id" "13"
+			"plane" "(-464 448 496) (464 448 496) (464 448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-464 464 -272) (464 464 -272) (464 464 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-464 448 496) (-464 448 -272) (-464 464 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 0 1 96] 0.25"
+			"vaxis" "[0 1 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(464 464 496) (464 464 -272) (464 448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 0 1 96] 0.25"
+			"vaxis" "[0 1 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(464 448 496) (-464 448 496) (-464 464 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(464 464 -272) (-464 464 -272) (-464 448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 165 154"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "618"
+		side
+		{
+			"id" "19"
+			"plane" "(-464 -448 496) (464 -448 496) (464 -464 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(-464 -464 -272) (464 -464 -272) (464 -448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(-464 -448 496) (-464 -464 496) (-464 -464 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(464 -448 -272) (464 -464 -272) (464 -464 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(464 -448 496) (-464 -448 496) (-464 -448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24"
+			"plane" "(464 -464 -272) (-464 -464 -272) (-464 -464 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 151 144"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "619"
+		side
+		{
+			"id" "25"
+			"plane" "(-464 448 496) (-448 448 496) (-448 -448 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(-464 -448 -272) (-448 -448 -272) (-448 448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(-464 448 496) (-464 -448 496) (-464 -448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-448 448 -272) (-448 -448 -272) (-448 -448 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-448 448 496) (-464 448 496) (-464 448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "30"
+			"plane" "(-448 -448 -272) (-464 -448 -272) (-464 -448 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 169 242"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "620"
+		side
+		{
+			"id" "31"
+			"plane" "(448 448 496) (464 448 496) (464 -448 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(448 -448 -272) (464 -448 -272) (464 448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(448 448 496) (448 -448 496) (448 -448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(464 448 -272) (464 -448 -272) (464 -448 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(464 448 496) (448 448 496) (448 448 -272)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "36"
+			"plane" "(464 -448 -272) (448 -448 -272) (448 -448 496)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 171 124"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2769"
+		editor
+		{
+			"color" "244 105 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "140"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "windmill_light_origin"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_wasteland/medbridge_post01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "64 64 -256"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "144"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "windmill_light_origin"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_wasteland/medbridge_post01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "64 -64 -256"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "148"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "windmill_light_origin"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_wasteland/medbridge_post01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-64 -64 -256"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "152"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "windmill_light_origin"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_wasteland/medbridge_post01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-64 64 -256"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "621"
+	"classname" "info_player_deathmatch"
+	"angles" "0 0 0"
+	"origin" "-8 -128 -208"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "956"
+	"classname" "light"
+	"_light" "255 255 255 2000"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "320 288 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "981"
+	"classname" "light"
+	"_light" "255 255 255 2000"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-336 -320 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "883"
+	"classname" "prop_dynamic"
+	"angles" "0 180 90"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_pipes/pipe02_tjoint01.mdl"
+	"modelscale" "4.7"
+	"parentname" "windmil_dynamo_physbox"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "windmil_dynamo"
+	"origin" "-1.52588e-005 0 178"
+	editor
+	{
+		"color" "0 240 245"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2118"
+	"classname" "func_physbox"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"explodemagnitude" "0"
+	"ExplodeRadius" "0"
+	"explosion" "0"
+	"forcetoenablemotion" "0"
+	"gibdir" "0 0 0"
+	"health" "0"
+	"massScale" "13"
+	"material" "2"
+	"nodamageforces" "0"
+	"notsolid" "0"
+	"origin" "0 0 160.5"
+	"PerformanceMode" "0"
+	"preferredcarryangles" "0 0 0"
+	"pressuredelay" "0"
+	"propdata" "8"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "2654208"
+	"spawnobject" "0"
+	"targetname" "windmil_dynamo_physbox"
+	solid
+	{
+		"id" "1947"
+		side
+		{
+			"id" "1048"
+			"plane" "(18.7803 -8 120) (20 0 120) (18.7813 8 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 464] 0.25"
+			"vaxis" "[1 0 0 432] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1047"
+			"plane" "(-19 0 177) (-17.7803 8 177) (-13.5353 13.9714 177)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[1 0 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1046"
+			"plane" "(-19 0 120) (-17.7793 8 120) (-17.7822 7.98828 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1045"
+			"plane" "(-17.7775 8 120) (-13.5233 14 120) (-13.5309 13.9727 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1044"
+			"plane" "(-13.5249 14 120) (-6.82066 18 120) (-6.77443 18.0117 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1043"
+			"plane" "(-6.82452 18 120) (0.5 20 120) (0.511414 20 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1042"
+			"plane" "(0.5 20 120) (7.81731 18 120) (7.8201 18 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1041"
+			"plane" "(7.8206 18 120) (14.4988 14 120) (14.4661 14.0332 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1040"
+			"plane" "(14.4991 14 120) (18.7812 8 120) (18.785 7.97656 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1039"
+			"plane" "(18.7813 8 120) (20 0 120) (20 0 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1038"
+			"plane" "(20 0 120) (18.7793 -8 120) (18.7841 -7.98828 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1037"
+			"plane" "(18.7804 -8 120) (14.5156 -14 120) (14.5126 -14 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1036"
+			"plane" "(7.81067 -18 177) (14.518 -14 177) (14.5188 -14 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1035"
+			"plane" "(0.499985 -20 177) (7.81998 -18 177) (7.83389 -18 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1034"
+			"plane" "(-6.7977 -18 177) (0.499985 -20 177) (0.5 -20 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1033"
+			"plane" "(-13.5119 -14 177) (-6.79251 -18 177) (-6.81735 -18 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1032"
+			"plane" "(-13.525 -14 120) (-17.7782 -8.02009 120) (-17.7813 -8 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1031"
+			"plane" "(-17.7797 -8.014 120) (-19 0 120) (-19 0 177)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1948"
+		side
+		{
+			"id" "1066"
+			"plane" "(-26 0 120) (-24.3714 10.3956 120) (-18.7211 18.1558 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[1 0 0 176] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1065"
+			"plane" "(-24.3727 10.3975 113) (-24.3759 10.3848 120) (-26 0 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1064"
+			"plane" "(-18.7039 18.1878 113) (-18.7202 18.1579 120) (-24.375 10.3884 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1063"
+			"plane" "(-9.75174 23.4015 113) (-9.68109 23.4192 120) (-18.7165 18.1579 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1062"
+			"plane" "(0 26 113) (0 26 120) (-9.67383 23.4229 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1061"
+			"plane" "(9.75017 23.4002 113) (9.75363 23.4038 120) (0 26 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1060"
+			"plane" "(18.6674 18.2079 113) (18.6259 18.2395 120) (9.76089 23.4029 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1059"
+			"plane" "(24.376 10.401 113) (24.3823 10.3703 120) (18.6331 18.2305 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1058"
+			"plane" "(26 0 113) (26 0 120) (24.3813 10.3666 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1057"
+			"plane" "(24.3755 -10.3961 113) (24.3759 -10.392 120) (26 0 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1056"
+			"plane" "(18.6929 -18.1979 113) (18.6888 -18.1968 120) (24.3762 -10.3931 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1055"
+			"plane" "(9.74661 -23.3987 120) (18.6876 -18.1962 120) (18.6865 -18.202 113)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1054"
+			"plane" "(0 -26 120) (9.75278 -23.3964 120) (9.76671 -23.3918 113)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1053"
+			"plane" "(-9.73112 -23.4043 120) (0 -26 120) (0 -26 113)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1052"
+			"plane" "(-18.6873 -18.201 120) (-9.73012 -23.4045 120) (-9.75133 -23.3989 113)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1051"
+			"plane" "(-24.3715 -10.4187 113) (-24.3737 -10.405 120) (-18.6895 -18.2 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1050"
+			"plane" "(-26 0 113) (-26 0 120) (-24.3733 -10.4034 120)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1049"
+			"plane" "(24.375 -10.3956 113) (26 0 113) (24.375 10.4029 113)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1949"
+		side
+		{
+			"id" "1084"
+			"plane" "(-36 18.1942 196.201) (-36 24.2707 187.525) (-36 26 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1083"
+			"plane" "(-44 26 178) (-44 24.2644 187.54) (-44 18.2041 196.197)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1082"
+			"plane" "(-36 26 178) (-36 24.2671 187.529) (-44 24.2662 187.532)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1081"
+			"plane" "(-36 24.268 187.532) (-36 18.2013 196.199) (-44 18.1996 196.201)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1080"
+			"plane" "(-36 18.2001 196.2) (-36 9.53319 202.267) (-44 9.53237 202.266)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1079"
+			"plane" "(-36 9.53401 202.266) (-36 0 204) (-44 0 204)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1078"
+			"plane" "(-36 0 204) (-36 -9.5341 202.266) (-44 -9.536 202.265)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1077"
+			"plane" "(-36 -9.53314 202.267) (-36 -18.2001 196.2) (-44 -18.1942 196.205)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1076"
+			"plane" "(-36 -18.1999 196.2) (-36 -24.2667 187.533) (-44 -24.268 187.529)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1075"
+			"plane" "(-36 -24.267 187.533) (-36 -26 178) (-44 -26 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1074"
+			"plane" "(-36 -26 178) (-36 -24.267 168.467) (-44 -24.2689 168.471)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1073"
+			"plane" "(-36 -24.2668 168.467) (-36 -18.1995 159.8) (-44 -18.1992 159.799)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1072"
+			"plane" "(-36 -18.2006 159.801) (-36 -9.53254 153.733) (-44 -9.53049 153.733)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1071"
+			"plane" "(-36 -9.53113 153.732) (-36 0 152) (-44 0 152)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1070"
+			"plane" "(-36 0 152) (-36 9.53386 153.734) (-44 9.53267 153.733)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1069"
+			"plane" "(-36 9.53055 153.733) (-36 18.202 159.803) (-44 18.2046 159.807)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1068"
+			"plane" "(-36 18.2037 159.803) (-36 24.266 168.463) (-44 24.2662 168.464)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1067"
+			"plane" "(-36 24.2667 168.467) (-36 26 178) (-44 26 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1946"
+		side
+		{
+			"id" "1090"
+			"plane" "(36 24 168) (36 22 169) (36 24 173)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1089"
+			"plane" "(-40 26 173) (-40 24 173) (-40 22 169)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1088"
+			"plane" "(36 26 173) (36 24 173) (-40 24 173)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1087"
+			"plane" "(36 22 169) (36 24 168) (-40 24 168)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1086"
+			"plane" "(36 24 168) (36 26 173) (-40 26 173)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1085"
+			"plane" "(36 24 173) (36 22 169) (-40 22 169)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1950"
+		side
+		{
+			"id" "1108"
+			"plane" "(44 18.1942 196.201) (44 24.2707 187.525) (44 26 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1107"
+			"plane" "(36 26 178) (36 24.2644 187.54) (36 18.2041 196.197)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1106"
+			"plane" "(44 26 178) (44 24.2671 187.529) (36 24.2662 187.532)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1105"
+			"plane" "(44 24.268 187.532) (44 18.2013 196.199) (36 18.1996 196.201)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1104"
+			"plane" "(44 18.2001 196.2) (44 9.53319 202.267) (36 9.53237 202.266)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1103"
+			"plane" "(44 9.53401 202.266) (44 0 204) (36 0 204)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1102"
+			"plane" "(44 0 204) (44 -9.5341 202.266) (36 -9.536 202.265)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1101"
+			"plane" "(44 -9.53314 202.267) (44 -18.2001 196.2) (36 -18.1942 196.205)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1100"
+			"plane" "(44 -18.1999 196.2) (44 -24.2667 187.533) (36 -24.268 187.529)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1099"
+			"plane" "(44 -24.267 187.533) (44 -26 178) (36 -26 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1098"
+			"plane" "(44 -26 178) (44 -24.267 168.467) (36 -24.2689 168.471)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1097"
+			"plane" "(44 -24.2668 168.467) (44 -18.1995 159.8) (36 -18.1992 159.799)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1096"
+			"plane" "(44 -18.2006 159.801) (44 -9.53254 153.733) (36 -9.53049 153.733)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1095"
+			"plane" "(44 -9.53113 153.732) (44 0 152) (36 0 152)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1094"
+			"plane" "(44 0 152) (44 9.53386 153.734) (36 9.53267 153.733)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1093"
+			"plane" "(44 9.53055 153.733) (44 18.202 159.803) (36 18.2046 159.807)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1092"
+			"plane" "(44 18.2037 159.803) (44 24.266 168.463) (36 24.2662 168.464)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1091"
+			"plane" "(44 24.2667 168.467) (44 26 178) (36 26 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1945"
+		side
+		{
+			"id" "1114"
+			"plane" "(36 26 178) (36 24 178) (36 24 183)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1113"
+			"plane" "(-40 24 178) (-40 26 178) (-40 26 183)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1112"
+			"plane" "(36 26 183) (36 24 183) (-40 24 183)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1111"
+			"plane" "(36 24 178) (36 26 178) (-40 26 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1110"
+			"plane" "(36 26 178) (36 26 183) (-40 26 183)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1109"
+			"plane" "(36 24 183) (36 24 178) (-40 24 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1944"
+		side
+		{
+			"id" "1120"
+			"plane" "(36 24 188) (36 22 187) (36 20 191)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1119"
+			"plane" "(-40 22 187) (-40 24 188) (-40 22 192)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1118"
+			"plane" "(36 22 192) (36 20 191) (-40 20 191)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1117"
+			"plane" "(36 22 187) (36 24 188) (-40 24 188)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1116"
+			"plane" "(36 24 188) (36 22 192) (-40 22 192)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1115"
+			"plane" "(36 20 191) (36 22 187) (-40 22 187)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1943"
+		side
+		{
+			"id" "1126"
+			"plane" "(36 18 196) (36 17 195) (36 13 198)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1125"
+			"plane" "(-40 14 200) (-40 13 198) (-40 17 195)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1124"
+			"plane" "(36 14 200) (36 13 198) (-40 13 198)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1123"
+			"plane" "(36 17 195) (36 18 196) (-40 18 196)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1122"
+			"plane" "(36 18 196) (36 14 200) (-40 14 200)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1121"
+			"plane" "(36 13 198) (36 17 195) (-40 17 195)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1941"
+		side
+		{
+			"id" "1132"
+			"plane" "(36 -10 202) (36 -9 200) (36 -13 198)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1131"
+			"plane" "(-40 -14 200) (-40 -13 198) (-40 -9 200)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1130"
+			"plane" "(36 -14 200) (36 -13 198) (-40 -13 198)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1129"
+			"plane" "(36 -9 200) (36 -10 202) (-40 -10 202)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1128"
+			"plane" "(36 -10 202) (36 -14 200) (-40 -14 200)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1127"
+			"plane" "(36 -13 198) (36 -9 200) (-40 -9 200)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1937"
+		side
+		{
+			"id" "1138"
+			"plane" "(36 -20 165) (36 -22 164) (36 -24 168)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1137"
+			"plane" "(-40 -22 164) (-40 -20 165) (-40 -22 169)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1136"
+			"plane" "(36 -22 164) (36 -20 165) (-40 -20 165)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1135"
+			"plane" "(36 -22 169) (36 -24 168) (-40 -24 168)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1134"
+			"plane" "(36 -24 168) (36 -22 164) (-40 -22 164)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1133"
+			"plane" "(36 -20 165) (36 -22 169) (-40 -22 169)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1938"
+		side
+		{
+			"id" "1144"
+			"plane" "(36 -24 173) (36 -26 173) (36 -26 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1143"
+			"plane" "(-40 -26 173) (-40 -24 173) (-40 -24 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1142"
+			"plane" "(36 -26 173) (36 -24 173) (-40 -24 173)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1141"
+			"plane" "(36 -24 178) (36 -26 178) (-40 -26 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1140"
+			"plane" "(36 -26 178) (36 -26 173) (-40 -26 173)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1139"
+			"plane" "(36 -24 173) (36 -24 178) (-40 -24 178)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1939"
+		side
+		{
+			"id" "1150"
+			"plane" "(36 -24 183) (36 -26 183) (36 -24 188)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1149"
+			"plane" "(-40 -26 183) (-40 -24 183) (-40 -22 187)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1148"
+			"plane" "(36 -26 183) (36 -24 183) (-40 -24 183)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1147"
+			"plane" "(36 -22 187) (36 -24 188) (-40 -24 188)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1146"
+			"plane" "(36 -24 188) (36 -26 183) (-40 -26 183)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1145"
+			"plane" "(36 -24 183) (36 -22 187) (-40 -22 187)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1940"
+		side
+		{
+			"id" "1156"
+			"plane" "(36 -18 196) (36 -17 195) (36 -20 191)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1155"
+			"plane" "(-40 -22 192) (-40 -20 191) (-40 -17 195)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1154"
+			"plane" "(36 -22 192) (36 -20 191) (-40 -20 191)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1153"
+			"plane" "(36 -17 195) (36 -18 196) (-40 -18 196)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1152"
+			"plane" "(36 -18 196) (36 -22 192) (-40 -22 192)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1151"
+			"plane" "(36 -20 191) (36 -17 195) (-40 -17 195)"
+			"material" "METAL/CITADEL_METALWALL101B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1942"
+		side
+		{
+			"id" "1162"
+			"plane" "(-24 -5 208) (1.99998 -5 208) (1.99998 -5 193)"
+			"material" "METAL/METALHULL010B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 168] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1161"
+			"plane" "(-24 9 193) (1.99998 9 193) (1.99998 9 208)"
+			"material" "METAL/METALHULL010B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[1 0 0 168] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1160"
+			"plane" "(-24 -5 193) (1.99998 -5 193) (1.99998 9 193)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -40] 0.25"
+			"vaxis" "[0 1 0 -24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1159"
+			"plane" "(-24 9 208) (1.99998 9 208) (1.99998 -5 208)"
+			"material" "METAL/METALPIPE006A"
+			"uaxis" "[-1 0 0 -473] 0.05"
+			"vaxis" "[0 1 0 -168] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1158"
+			"plane" "(-24 -5 208) (-24 -5 193) (-24 9 193)"
+			"material" "METAL/METALHULL010B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 1 0 -24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1157"
+			"plane" "(1.99998 9 208) (1.99998 9 193) (1.99998 -5 193)"
+			"material" "METAL/METALHULL010B"
+			"uaxis" "[0 0 1 -488] 0.25"
+			"vaxis" "[0 1 0 -24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 126 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "2516"
+	"classname" "prop_physics"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_citizen_tech/windmill_blade004a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"spawnflags" "256"
+	"origin" "-89 0 183"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9000]"
+	}
+}
+entity
+{
+	"id" "2550"
+	"classname" "prop_physics"
+	"angles" "0 0 -90"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/wheel03b.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"spawnflags" "256"
+	"origin" "0 0 116.085"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "64 64 -91"
+	editor
+	{
+		"color" "0 100 229"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 90 90"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "0 64 -41"
+	editor
+	{
+		"color" "0 130 251"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "prop_physics_respawnable"
+	"angles" "0.257527 90.4286 149.001"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board04a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "29 64 -14"
+	editor
+	{
+		"color" "0 168 145"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "16"
+	"classname" "prop_physics_respawnable"
+	"angles" "0.380201 90.3247 130.501"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board01a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-13 64 44"
+	editor
+	{
+		"color" "0 102 251"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "prop_physics_respawnable"
+	"angles" "0.324723 89.6198 40.4989"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board01a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "24 65 8"
+	editor
+	{
+		"color" "0 236 181"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "24"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "64 64 37"
+	editor
+	{
+		"color" "0 142 123"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 90 90"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "0 64 87"
+	editor
+	{
+		"color" "0 244 205"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "32"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "40 39 176"
+	editor
+	{
+		"color" "0 114 235"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "44"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "40 -41 181"
+	editor
+	{
+		"color" "0 108 113"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "56"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-40 -41 178"
+	editor
+	{
+		"color" "0 174 123"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "60"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 135 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board05a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-19.6499 21 97"
+	editor
+	{
+		"color" "0 224 161"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "64"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 180 90"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "64 0 87"
+	editor
+	{
+		"color" "0 238 203"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "68"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 135 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board05a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "19 -19 99"
+	editor
+	{
+		"color" "0 132 165"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "72"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 45 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board05a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-19 -19.649 95"
+	editor
+	{
+		"color" "0 198 195"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "76"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 45 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board05a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "21 19 93"
+	editor
+	{
+		"color" "0 212 145"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "80"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 90 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/metal_panel01a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "34 -1 92"
+	editor
+	{
+		"color" "0 134 139"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "84"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 90 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/metal_panel01a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-13 -1 92"
+	editor
+	{
+		"color" "0 152 229"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "88"
+	"classname" "prop_physics_respawnable"
+	"angles" "-89 90 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/metal_panel01a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-37 0 90"
+	editor
+	{
+		"color" "0 138 223"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "92"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 180 90"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-64 0 87"
+	editor
+	{
+		"color" "0 168 145"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "96"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-64 64 37"
+	editor
+	{
+		"color" "0 234 199"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "100"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "64 -64 -91"
+	editor
+	{
+		"color" "0 252 213"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "104"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 180 90"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "64 0 -41"
+	editor
+	{
+		"color" "0 170 135"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "108"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "64 -64 37"
+	editor
+	{
+		"color" "0 172 137"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "112"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 90 90"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "0 -64 -41"
+	editor
+	{
+		"color" "0 234 243"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "116"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-64 -64 37"
+	editor
+	{
+		"color" "0 232 229"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "120"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-64 -64 -91"
+	editor
+	{
+		"color" "0 206 111"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "124"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 180 90"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-64 0 -41"
+	editor
+	{
+		"color" "0 208 205"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "128"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-64 64 -91"
+	editor
+	{
+		"color" "0 230 103"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "132"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-40 39 181"
+	editor
+	{
+		"color" "0 144 161"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "136"
+	"classname" "prop_physics_respawnable"
+	"angles" "0 90 90"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board07a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "0 -64 87"
+	editor
+	{
+		"color" "0 170 111"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "52"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 45 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board02a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-19 -20.649 240"
+	editor
+	{
+		"color" "244 105 0"
+		"groupid" "2769"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 45 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board02a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "21 18 238"
+	editor
+	{
+		"color" "244 105 0"
+		"groupid" "2769"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "48"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 135 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board02a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "-19.6499 20 242"
+	editor
+	{
+		"color" "244 105 0"
+		"groupid" "2769"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "40"
+	"classname" "prop_physics_respawnable"
+	"angles" "90 135 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "6000"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_debris/wood_board02a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"RespawnTime" "60"
+	"skin" "0"
+	"spawnflags" "1032"
+	"targetname" "windmill_wood"
+	"origin" "19 -20 244"
+	editor
+	{
+		"color" "244 105 0"
+		"groupid" "2769"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -12768]"
+	}
+}
+entity
+{
+	"id" "2857"
+	"classname" "prop_physics"
+	"angles" "89.5 180 -90"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/wheel01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"spawnflags" "256"
+	"origin" "52 0 178"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[14.2996 -217.948 313.568]"
+		"look" "[16.2251 -185.195 290.765]"
+	}
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
