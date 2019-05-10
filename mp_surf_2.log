@@ -66187,3 +66187,889 @@ Level flags = 0
 Total triangle count: 6965
 Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
 1 minute, 32 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+Patching WVT material: maps/mp_surf_2/nature/blendsandsand008a_wvt_patch
+Patching WVT material: maps/mp_surf_2/nature/blendsandgrass008a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 28 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (151156 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 974 texinfos to 374
+Reduced 50 texdatas to 38 (1541 bytes to 1130)
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+Wrote ZIP buffer, estimated size 430692, actual size 427798
+5 seconds elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt
+ 469 portalclusters
+1334 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 35 visible clusters (0.02%)
+Total clusters visible: 209510
+Average clusters visible: 446
+Building PAS...
+Average clusters audible: 466
+visdatasize:58862  compressed from 60032
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+3048 faces
+6 degenerate faces
+2785598 square feet [401126176.00 square inches]
+1599 Displacements
+786184 Square Feet [113210616.00 Square Inches]
+3042 patches before subdivision
+211410 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7932088, max 753
+transfer lists:  60.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(110804, 95985, 56369)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(294665, 280450, 169276)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7714, 6059, 2247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(14640, 11951, 4473)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(541, 357, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(768, 520, 121)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(38, 19, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 23, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0934 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  47/1024         2256/49152    ( 4.6%) 
+brushes                392/8192         4704/98304    ( 4.8%) 
+brushsides            2565/65536       20520/524288   ( 3.9%) 
+planes                2278/65536       45560/1310720  ( 3.5%) 
+vertexes              3942/65536       47304/786432   ( 6.0%) 
+nodes                 1535/65536       49120/2097152  ( 2.3%) 
+texinfos               374/12288       26928/884736   ( 3.0%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos             1599/0          281424/0        ( 0.0%) 
+disp_verts          129519/0         2590380/0        ( 0.0%) 
+disp_tris           204672/0          409344/0        ( 0.0%) 
+disp_lmsamples     7393776/0         7393776/0        ( 0.0%) 
+faces                 3048/65536      170688/3670016  ( 4.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2339/65536      130984/3670016  ( 3.6%) 
+leaves                1583/65536       50656/2097152  ( 2.4%) 
+leaffaces             1625/65536        3250/131072   ( 2.5%) 
+leafbrushes           1442/65536        2884/131072   ( 2.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            22489/512000      89956/2048000  ( 4.4%) 
+edges                12051/256000      48204/1024000  ( 4.7%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             62/32768         620/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           954/65536        1908/131072   ( 1.5%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     7708824/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       58862/16777216 ( 0.4%) 
+entdata               [variable]      334140/393216   (85.0%) VERY FULL!
+LDR ambient table     1583/65536        6332/262144   ( 2.4%) 
+HDR ambient table     1583/65536        6332/262144   ( 2.4%) 
+LDR leaf ambient      7409/65536      207452/1835008  (11.3%) 
+HDR leaf ambient      1583/65536       44324/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/67252    ( 0.0%) 
+dtl prp lght          [variable]           1/59       ( 1.7%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/21856    ( 0.0%) 
+pakfile               [variable]      974138/0        ( 0.0%) 
+physics               [variable]      151156/4194304  ( 3.6%) 
+physics terrain       [variable]      608895/1048576  (58.1%) 
+
+Level flags = 1
+
+Total triangle count: 6965
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+7 minutes, 20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+3048 faces
+6 degenerate faces
+2785598 square feet [401126176.00 square inches]
+1599 Displacements
+786184 Square Feet [113210616.00 Square Inches]
+3042 patches before subdivision
+211410 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7932088, max 753
+transfer lists:  60.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(91369, 73727, 41264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(240496, 217616, 126711)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6305, 4667, 1669)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(12002, 9319, 3366)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(445, 278, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(632, 407, 91)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(31, 15, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(36, 18, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1062 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  47/1024         2256/49152    ( 4.6%) 
+brushes                392/8192         4704/98304    ( 4.8%) 
+brushsides            2565/65536       20520/524288   ( 3.9%) 
+planes                2278/65536       45560/1310720  ( 3.5%) 
+vertexes              3942/65536       47304/786432   ( 6.0%) 
+nodes                 1535/65536       49120/2097152  ( 2.3%) 
+texinfos               374/12288       26928/884736   ( 3.0%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos             1599/0          281424/0        ( 0.0%) 
+disp_verts          129519/0         2590380/0        ( 0.0%) 
+disp_tris           204672/0          409344/0        ( 0.0%) 
+disp_lmsamples     7393776/0         7393776/0        ( 0.0%) 
+faces                 3048/65536      170688/3670016  ( 4.7%) 
+hdr faces             3048/65536      170688/3670016  ( 4.7%) 
+origfaces             2339/65536      130984/3670016  ( 3.6%) 
+leaves                1583/65536       50656/2097152  ( 2.4%) 
+leaffaces             1625/65536        3250/131072   ( 2.5%) 
+leafbrushes           1442/65536        2884/131072   ( 2.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            22489/512000      89956/2048000  ( 4.4%) 
+edges                12051/256000      48204/1024000  ( 4.7%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          3/8192          264/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             62/32768         620/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           954/65536        1908/131072   ( 1.5%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     7708824/0        ( 0.0%) 
+HDR lightdata         [variable]     7708824/0        ( 0.0%) 
+visdata               [variable]       58862/16777216 ( 0.4%) 
+entdata               [variable]      334140/393216   (85.0%) VERY FULL!
+LDR ambient table     1583/65536        6332/262144   ( 2.4%) 
+HDR ambient table     1583/65536        6332/262144   ( 2.4%) 
+LDR leaf ambient      7409/65536      207452/1835008  (11.3%) 
+HDR leaf ambient      7569/65536      211932/1835008  (11.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/67252    ( 0.0%) 
+dtl prp lght          [variable]           1/59       ( 1.7%) 
+HDR dtl prp lght      [variable]           1/59       ( 1.7%) 
+static props          [variable]           1/21856    ( 0.0%) 
+pakfile               [variable]     1521950/0        ( 0.0%) 
+physics               [variable]      151156/4194304  ( 3.6%) 
+physics terrain       [variable]      608895/1048576  (58.1%) 
+
+Level flags = 3
+
+Total triangle count: 6965
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+7 minutes, 16 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+Patching WVT material: maps/mp_surf_2/nature/blendsandsand008a_wvt_patch
+Patching WVT material: maps/mp_surf_2/nature/blendsandgrass008a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 28 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (150636 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 971 texinfos to 374
+Reduced 50 texdatas to 38 (1541 bytes to 1130)
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+Wrote ZIP buffer, estimated size 430692, actual size 427798
+4 seconds elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt
+ 466 portalclusters
+1326 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 224 visible clusters (0.11%)
+Total clusters visible: 210722
+Average clusters visible: 452
+Building PAS...
+Average clusters audible: 463
+visdatasize:58591  compressed from 59648
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+3032 faces
+6 degenerate faces
+2772936 square feet [399302880.00 square inches]
+1585 Displacements
+779808 Square Feet [112292376.00 Square Inches]
+3026 patches before subdivision
+209742 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7848725, max 787
+transfer lists:  59.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(113409, 98439, 58011)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(291238, 276919, 167049)
+Build Patch/Sample Hash Table(s).....Done<0.0924 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  47/1024         2256/49152    ( 4.6%) 
+brushes                391/8192         4692/98304    ( 4.8%) 
+brushsides            2559/65536       20472/524288   ( 3.9%) 
+planes                2280/65536       45600/1310720  ( 3.5%) 
+vertexes              3926/65536       47112/786432   ( 6.0%) 
+nodes                 1527/65536       48864/2097152  ( 2.3%) 
+texinfos               374/12288       26928/884736   ( 3.0%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos             1585/0          278960/0        ( 0.0%) 
+disp_verts          128385/0         2567700/0        ( 0.0%) 
+disp_tris           202880/0          405760/0        ( 0.0%) 
+disp_lmsamples     7329040/0         7329040/0        ( 0.0%) 
+faces                 3032/65536      169792/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2321/65536      129976/3670016  ( 3.5%) 
+leaves                1575/65536       50400/2097152  ( 2.4%) 
+leaffaces             1624/65536        3248/131072   ( 2.5%) 
+leafbrushes           1389/65536        2778/131072   ( 2.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            22352/512000      89408/2048000  ( 4.4%) 
+edges                11986/256000      47944/1024000  ( 4.7%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             58/32768         580/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           927/65536        1854/131072   ( 1.4%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     7644232/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       58591/16777216 ( 0.3%) 
+entdata               [variable]      334716/393216   (85.1%) VERY FULL!
+LDR ambient table     1575/65536        6300/262144   ( 2.4%) 
+HDR ambient table     1575/65536        6300/262144   ( 2.4%) 
+LDR leaf ambient      7591/65536      212548/1835008  (11.6%) 
+HDR leaf ambient      1575/65536       44100/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/67252    ( 0.0%) 
+dtl prp lght          [variable]           1/59       ( 1.7%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/22160    ( 0.0%) 
+pakfile               [variable]      427798/0        ( 0.0%) 
+physics               [variable]      150636/4194304  ( 3.6%) 
+physics terrain       [variable]      607565/1048576  (57.9%) 
+
+Level flags = 0
+
+Total triangle count: 6932
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+1 minute, 31 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+Patching WVT material: maps/mp_surf_2/nature/blendsandsand008a_wvt_patch
+Patching WVT material: maps/mp_surf_2/nature/blendsandgrass008a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 28 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (152604 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 972 texinfos to 374
+Reduced 50 texdatas to 38 (1541 bytes to 1130)
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+Wrote ZIP buffer, estimated size 430692, actual size 427798
+4 seconds elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt
+ 456 portalclusters
+1299 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 277 visible clusters (0.14%)
+Total clusters visible: 201631
+Average clusters visible: 442
+Building PAS...
+Average clusters audible: 453
+visdatasize:55481  compressed from 58368
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+3048 faces
+6 degenerate faces
+2785599 square feet [401126240.00 square inches]
+1599 Displacements
+786184 Square Feet [113210616.00 Square Inches]
+3042 patches before subdivision
+211410 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7940183, max 798
+transfer lists:  60.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(113506, 98524, 58056)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(300366, 285598, 172276)
+Build Patch/Sample Hash Table(s).....Done<0.0965 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  47/1024         2256/49152    ( 4.6%) 
+brushes                397/8192         4764/98304    ( 4.8%) 
+brushsides            2595/65536       20760/524288   ( 4.0%) 
+planes                2278/65536       45560/1310720  ( 3.5%) 
+vertexes              3938/65536       47256/786432   ( 6.0%) 
+nodes                 1522/65536       48704/2097152  ( 2.3%) 
+texinfos               374/12288       26928/884736   ( 3.0%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos             1599/0          281424/0        ( 0.0%) 
+disp_verts          129519/0         2590380/0        ( 0.0%) 
+disp_tris           204672/0          409344/0        ( 0.0%) 
+disp_lmsamples     7393776/0         7393776/0        ( 0.0%) 
+faces                 3048/65536      170688/3670016  ( 4.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2334/65536      130704/3670016  ( 3.6%) 
+leaves                1570/65536       50240/2097152  ( 2.4%) 
+leaffaces             1619/65536        3238/131072   ( 2.5%) 
+leafbrushes           1290/65536        2580/131072   ( 2.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            22461/512000      89844/2048000  ( 4.4%) 
+edges                12029/256000      48116/1024000  ( 4.7%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             58/32768         580/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           870/65536        1740/131072   ( 1.3%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     7708724/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       55481/16777216 ( 0.3%) 
+entdata               [variable]      339992/393216   (86.5%) VERY FULL!
+LDR ambient table     1570/65536        6280/262144   ( 2.4%) 
+HDR ambient table     1570/65536        6280/262144   ( 2.4%) 
+LDR leaf ambient      7447/65536      208516/1835008  (11.4%) 
+HDR leaf ambient      1570/65536       43960/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/67252    ( 0.0%) 
+dtl prp lght          [variable]           1/59       ( 1.7%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/22832    ( 0.0%) 
+pakfile               [variable]      427798/0        ( 0.0%) 
+physics               [variable]      152604/4194304  ( 3.6%) 
+physics terrain       [variable]      608895/1048576  (58.1%) 
+
+Level flags = 0
+
+Total triangle count: 6957
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+1 minute, 31 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+Patching WVT material: maps/mp_surf_2/nature/blendsandsand008a_wvt_patch
+Patching WVT material: maps/mp_surf_2/nature/blendsandgrass008a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 28 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (151164 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 971 texinfos to 374
+Reduced 50 texdatas to 38 (1541 bytes to 1130)
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+Wrote ZIP buffer, estimated size 430692, actual size 427798
+4 seconds elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt
+ 465 portalclusters
+1321 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 250 visible clusters (0.12%)
+Total clusters visible: 209779
+Average clusters visible: 451
+Building PAS...
+Average clusters audible: 462
+visdatasize:58436  compressed from 59520
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+3052 faces
+6 degenerate faces
+2773283 square feet [399352800.00 square inches]
+1598 Displacements
+785729 Square Feet [113145080.00 Square Inches]
+3046 patches before subdivision
+211288 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7977653, max 796
+transfer lists:  60.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(113325, 98372, 57977)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(297157, 282463, 170356)
+Build Patch/Sample Hash Table(s).....Done<0.0907 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  47/1024         2256/49152    ( 4.6%) 
+brushes                391/8192         4692/98304    ( 4.8%) 
+brushsides            2559/65536       20472/524288   ( 3.9%) 
+planes                2278/65536       45560/1310720  ( 3.5%) 
+vertexes              3947/65536       47364/786432   ( 6.0%) 
+nodes                 1533/65536       49056/2097152  ( 2.3%) 
+texinfos               374/12288       26928/884736   ( 3.0%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos             1598/0          281248/0        ( 0.0%) 
+disp_verts          129438/0         2588760/0        ( 0.0%) 
+disp_tris           204544/0          409088/0        ( 0.0%) 
+disp_lmsamples     7389152/0         7389152/0        ( 0.0%) 
+faces                 3052/65536      170912/3670016  ( 4.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2336/65536      130816/3670016  ( 3.6%) 
+leaves                1581/65536       50592/2097152  ( 2.4%) 
+leaffaces             1625/65536        3250/131072   ( 2.5%) 
+leafbrushes           1431/65536        2862/131072   ( 2.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            22486/512000      89944/2048000  ( 4.4%) 
+edges                12060/256000      48240/1024000  ( 4.7%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             59/32768         590/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           879/65536        1758/131072   ( 1.3%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     7704096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       58436/16777216 ( 0.3%) 
+entdata               [variable]      341560/393216   (86.9%) VERY FULL!
+LDR ambient table     1581/65536        6324/262144   ( 2.4%) 
+HDR ambient table     1581/65536        6324/262144   ( 2.4%) 
+LDR leaf ambient      7498/65536      209944/1835008  (11.4%) 
+HDR leaf ambient      1581/65536       44268/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/67252    ( 0.0%) 
+dtl prp lght          [variable]           1/59       ( 1.7%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/24102    ( 0.0%) 
+pakfile               [variable]      427798/0        ( 0.0%) 
+physics               [variable]      151164/4194304  ( 3.6%) 
+physics terrain       [variable]      608842/1048576  (58.1%) 
+
+Level flags = 0
+
+Total triangle count: 6966
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+1 minute, 33 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp\materials
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2 deathmatch\hl2mp\gameinfo.txt
+Patching WVT material: maps/mp_surf_2/nature/blendsandsand008a_wvt_patch
+Patching WVT material: maps/mp_surf_2/nature/blendsandgrass008a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 28 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (151060 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 972 texinfos to 374
+Reduced 50 texdatas to 38 (1541 bytes to 1130)
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+Wrote ZIP buffer, estimated size 430692, actual size 427798
+4 seconds elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+reading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.prt
+ 453 portalclusters
+1284 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 278 visible clusters (0.14%)
+Total clusters visible: 198729
+Average clusters visible: 438
+Building PAS...
+Average clusters audible: 450
+visdatasize:55118  compressed from 57984
+writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+3035 faces
+6 degenerate faces
+2785945 square feet [401176160.00 square inches]
+1583 Displacements
+778861 Square Feet [112155984.00 Square Inches]
+3029 patches before subdivision
+209381 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7863056, max 786
+transfer lists:  60.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(113017, 98073, 57790)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(294207, 279728, 168733)
+Build Patch/Sample Hash Table(s).....Done<0.0971 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  47/1024         2256/49152    ( 4.6%) 
+brushes                392/8192         4704/98304    ( 4.8%) 
+brushsides            2565/65536       20520/524288   ( 3.9%) 
+planes                2278/65536       45560/1310720  ( 3.5%) 
+vertexes              3925/65536       47100/786432   ( 6.0%) 
+nodes                 1520/65536       48640/2097152  ( 2.3%) 
+texinfos               374/12288       26928/884736   ( 3.0%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos             1583/0          278608/0        ( 0.0%) 
+disp_verts          128223/0         2564460/0        ( 0.0%) 
+disp_tris           202624/0          405248/0        ( 0.0%) 
+disp_lmsamples     7319792/0         7319792/0        ( 0.0%) 
+faces                 3035/65536      169960/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2319/65536      129864/3670016  ( 3.5%) 
+leaves                1568/65536       50176/2097152  ( 2.4%) 
+leaffaces             1622/65536        3244/131072   ( 2.5%) 
+leafbrushes           1285/65536        2570/131072   ( 2.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            22351/512000      89404/2048000  ( 4.4%) 
+edges                11982/256000      47928/1024000  ( 4.7%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             58/32768         580/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           861/65536        1722/131072   ( 1.3%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     7634676/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       55118/16777216 ( 0.3%) 
+entdata               [variable]      340438/393216   (86.6%) VERY FULL!
+LDR ambient table     1568/65536        6272/262144   ( 2.4%) 
+HDR ambient table     1568/65536        6272/262144   ( 2.4%) 
+LDR leaf ambient      7494/65536      209832/1835008  (11.4%) 
+HDR leaf ambient      1568/65536       43904/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/67252    ( 0.0%) 
+dtl prp lght          [variable]           1/59       ( 1.7%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/24102    ( 0.0%) 
+pakfile               [variable]      427798/0        ( 0.0%) 
+physics               [variable]      151060/4194304  ( 3.6%) 
+physics terrain       [variable]      607333/1048576  (57.9%) 
+
+Level flags = 0
+
+Total triangle count: 6933
+Writing c:\program files (x86)\steam\steamapps\common\sourcesdk_content\hl2mp\mapsrc\hammer\mp_surf_2.bsp
+1 minute, 32 seconds elapsed
